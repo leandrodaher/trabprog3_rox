@@ -1,0 +1,82 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+}
+
+.simbolo {
+    font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.jumbotron {
+	background-color: #8e44ad; /* roxo */
+	color: #ffffff;
+	font-family: Montserrat, sans-serif;
+	background: url(../img/fibers4k.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.jumbotron::after  { 
+
+}
+	
+.bkg-cinza {
+	background-color: #f6f6f6;
+}
+
+.maior{
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #8e44ad;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #8e44ad !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.glyphicon {
+	color: #8e44ad;
+}
+
+h2 {
+	color: #8e44ad;
+}
+
+.card {
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #dddddd;
+}
